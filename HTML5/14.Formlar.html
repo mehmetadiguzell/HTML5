@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+        <form>
+            <!--HTML5 İnputs-->
+
+            <label for="name">Name</label> <br>
+            <input type="text" id="name" name="name" placeholder="İsminizi Giriniz"> <br>
+
+            <label for="email">Email</label> <br>
+            <input type="email" id="email" name="email"> <br>
+
+            <label for="pass">Şifre</label><br>
+            <input type="password" name="pass" id="pass"> <br>
+
+            <label for="date">Doğum Tarihi</label> <br>
+            <input type="date"  id="date" name="date"> <br>
+
+            Cinsiyet <br>
+            Erkek
+            <input type="radio" name="cinsiyet" value="erkek" checked> 
+            Kadın
+            <input type="radio" name="cinsiyet" value="kadın"> <br>
+
+            Hobiler <br>
+            Teknoloji
+            <input type="checkbox" name="teknoloji" name="teknoloji">
+            Kitap Okumak
+            <input type="checkbox" name="kitap" id="kitap">
+            Sanat
+            <input type="checkbox" name="sanat" value="sanat"> <br>
+
+            Derece <br>
+            <select name="derece" id="derece">
+                <option value="lisans"> Lisans</option>
+                <option value="yükseklisans"> Yüksek Lisans</option>
+                <option value="doktora" selected> Doktora</option>
+            </select>
+            <br>
+          <textarea name="mesaj" id="mesaj" cols="20" rows="10" placeholder="Mesajınızı Giriniz"></textarea>
+          <br>
+          <input type="submit" value="Gönder">
+          <button type="reset">Sıfırla</button>
+
+
+
+
+
+
+
+
+
+        </form>
+
+
+
+</body>
+</html>
